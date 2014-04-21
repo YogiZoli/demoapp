@@ -11,7 +11,7 @@ describe "Static pages" do
     end
     
     it { should have_content('Sample App') }
-    it { should have_title("Ruby on Rails Tutorial Sample App") }
+    it { should have_title(full_title('') }
     it { should_not have_title('| Home') }
     
 #    it "should have the content 'Sample App'" do
